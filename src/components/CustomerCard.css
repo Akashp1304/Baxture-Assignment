@@ -1,0 +1,97 @@
+.card {
+  width: calc(25% - 8px);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-sizing: border-box;
+  height: 240px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: calc(100% - 10px);
+  }
+}
+
+
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 20px;
+  align-items: center;
+  margin-left: 35%;
+ margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+
+}
+
+.btn.btn-primary {
+  color: white;
+  background-color: rgb(34, 152, 243);
+  border-color: rgb(79, 171, 241);
+
+
+}
+
+.btns {
+  background-color: white;
+  border-color: rgb(79, 171, 241);
+  color: rgb(79, 171, 241);
+  border-radius: 5px;
+  height: 30px;
+  width: 70%;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-left: 32%;
+  text-align: center;
+
+}
+
+.user-info {
+ 
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.btn {
+  height: 30px;
+  align-items: center;
+  width: 70%;
+}
+
+.button {
+  text-align: center;
+  height: 30px;
+}
+
+.star-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 2px;
+}
+
+.icon {
+  font-weight: 100;
+  cursor: pointer;
+  line-height: 0;
+
+}
+.user-info p {
+  margin-bottom: 5px;
+}
