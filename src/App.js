@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import CustomerCard from './components/CustomerCard';
@@ -33,9 +32,9 @@ const App = () => {
   };
 
   return (
-    <div className="App">
+    <div className="App mantine-Grid-inner">
       {customers.map((customer) => (
-        <CustomerCard
+        <CustomerCard className="app-1"
           key={customer.id}
           customer={customer}
           onFollow={handleFollow}
@@ -47,4 +46,3 @@ const App = () => {
 };
 
 export default App;
-
